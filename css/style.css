@@ -1,0 +1,45 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;    
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-color: #f5f5f5;
+    text-align: center
+}
+.simb-money{    
+    position: relative;	
+	top: 150px;
+}
+.btn-btn{    
+    width: 200px;
+    height: 200px;
+    float: center;
+    text-align: center;
+    color: #fff;
+    border-radius: 200px;
+    cursor: pointer;
+    background: radial-gradient(circle, deepskyblue, white);
+}
+.btn-btn:hover{
+    background: radial-gradient(circle, white, deepskyblue);
+}
+.btn-btn:active{
+    background: deepskyblue;
+}
+.fa fa-arrow-circle-down fa-3x{
+    width: 150px;
+    height: 150px;
+}
+#player{
+    display: none;
+}
+footer{
+   position: absolute;
+    top: 97%
+}
